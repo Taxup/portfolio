@@ -1,0 +1,2269 @@
+
+.animated {
+  -webkit-animation-duration: 1200ms;
+  -moz-animation-duration: 1200ms;
+  animation-duration: 1200ms;
+}
+
+.blog-post {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+}
+
+.headerDivider {
+  border-left: 1px solid #38546d;
+  border-right: 1px solid #16222c;
+  height: 80px;
+  position: absolute;
+  right: 249px;
+  top: 10px;
+}
+
+.akshay-contact-logo-big {
+  width: 200px;
+  height: auto;
+  padding-top: 9px;
+  margin-left: 10px;
+
+}
+
+.mobile {
+  font-size: 18px;
+  color: white;
+}
+
+.email {
+  font-size: 18px;
+  color: white;
+}
+
+.email:hover {
+  color: white;
+
+}
+
+.mobile:hover {
+  color: white;
+}
+
+.contact-icon-1 {
+  height: 20px;
+  width: 20px;;
+  margin-right: 10px;
+
+}
+
+.contact-icon-2 {
+  height: 20px;
+  width: 20px;;
+  margin: 20px;
+}
+
+.personal-contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modal {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.close {
+  color: #fff;
+  opacity: 1;
+}
+
+.modal-content {
+  background-color: rgb(25, 25, 25);
+
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.modal-header {
+
+  color: white;
+  border-bottom: 1px solid transparent;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 200px;
+  width: 78px;
+}
+
+.nav-l {
+  float: left;
+  height: auto;
+  width: 200px;
+}
+
+.navbar-menu {
+  float: right;
+  margin-top: 0;
+  margin-right: 40px;
+  margin-top: 49px;
+}
+
+.loader {
+  z-index: 99999;
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(25, 25, 25);
+
+  background-size: cover;
+
+}
+
+.centered {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  align-content: center;
+}
+
+.banner-logo {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  margin-left: -10px;
+  animation: logo-animation linear 4s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: logo-animation linear 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: logo-animation linear 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: logo-animation linear 4s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: logo-animation linear 4s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+
+@keyframes logo-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.990099773451273;
+  }
+  101% {
+    opacity: 0.99;
+  }
+}
+
+@-moz-keyframes logo-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.990099773451273;
+  }
+  101% {
+    opacity: 0.99;
+  }
+}
+
+@-webkit-keyframes logo-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.990099773451273;
+  }
+  101% {
+    opacity: 0.99;
+  }
+}
+
+@-o-keyframes logo-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.990099773451273;
+  }
+  101% {
+    opacity: 0.99;
+  }
+}
+
+@-ms-keyframes logo-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.990099773451273;
+  }
+  101% {
+    opacity: 0.99;
+  }
+}
+
+body {
+  /* Location of the image */
+  background-color: rgb(25, 25, 25);
+  /*background-size: cover;*/
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.intro {
+  z-index: -1;
+  padding-left: 40px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: table;
+
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none
+}
+
+
+.app-intro {
+  font-weight: bold;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 32px;
+  color: #FFF;
+}
+
+.app-intro-sub {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+  text-align: center;
+  margin: 10px auto 50px;
+  font-size: 24px;
+  color: #FFF;
+}
+
+.app-intro-desc {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+  text-align: center;
+  margin: 10px auto auto;
+  font-size: 24px;
+  color: #FFF;
+}
+
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  top: 10%;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.iconDetails {
+  float: left;
+  height: auto;
+  width: auto;
+}
+
+.socialIcons {
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.intro-1 {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+  color: #FFF;
+  font-size: 48px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.intro-2 {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+  color: #FFF;
+  font-size: 36px;
+  width: 40%;
+  opacity: 0.67;
+  margin-bottom: 40px;
+}
+
+.intro-3-course {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+  color: #FFF;
+  font-size: 20px;
+  opacity: 0.48;
+  margin-bottom: 40px;
+  width: auto;
+  margin-left: 15px;
+}
+
+.intro-3-work {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+  color: #FFF;
+  font-size: 20px;
+  opacity: 0.48;
+  margin-bottom: 40px;
+  width: auto;
+}
+
+.btn {
+  color: #FFF;
+  background: transparent;
+  border-radius: 6px;
+  width: 145px;
+  height: 35px;
+  border-color: #FFF;
+  border-width: 1px;
+  box-shadow: 2px 2px rgba(0, 0, 0, .2);
+  margin-bottom: 10px;
+}
+
+.btn:focus {
+  outline: none;
+  background: transparent;
+  color: #FFF;
+
+}
+
+.btn:hover {
+  background: #000;
+  color: #FFF;
+  border-radius: 6px;
+  border-color: transparent;
+  width: 145px;
+  height: 35px;
+  box-shadow: 4px 6px rgba(0, 0, 0, .2);
+  margin-bottom: 10px;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+  border-color: transparent;
+  color: #FFF;
+}
+
+.btn-primary.outline:active, .btn-primary.outline.active {
+  border-color: transparent;
+  color: #FFF;
+
+}
+
+.prev-img {
+  width: 230px;
+  height: auto;
+}
+
+.nav-logo {
+  float: left;
+  width: 200px;
+  margin-top: 3px;
+  height: auto;
+
+}
+
+.prevapp {
+  text-align: center;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#Apprev {
+  margin: 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#Apprev div div img {
+  display: block;
+  margin: auto;
+}
+
+.carousel {
+  width: 50%;
+}
+
+.carousel-inner > .item > img {
+  margin: auto;
+}
+
+.inner-social {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30%;
+
+}
+
+.icon-bar {
+  width: 100%;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 15%;
+  color: white;
+}
+
+
+@media only screen and (max-width: 1990px) , (max-height: 1080px) {
+
+  .img-responsive {
+    height: 768px;
+    width: auto;
+    margin-right: 40px
+  }
+
+}
+
+@media only screen and (max-width: 1690px), (max-height: 1050px) {
+
+  .img-responsive {
+    height: 668px;
+    width: auto;
+    margin-right: 40px
+  }
+}
+
+
+@media only screen and (max-width: 980px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 36px
+  }
+
+  .overlay .closebtn {
+    font-size: 60px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 548px;
+    width: auto;
+    margin-right: 40px
+  }
+
+  .btn {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 145px;
+    height: 35px;
+    border-color: transparent;
+    border-width: 1px;
+    box-shadow: 3px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+  }
+
+  .btn:focus, .btn:active, .btn:hover {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 145px;
+    height: 35px;
+    border-color: transparent;
+    border-width: 1px;
+    margin-bottom: 10px;
+  }
+
+  .intro-1 {
+    font-size: 42px;
+    margin-bottom: 35px;
+
+  }
+
+  .intro-2 {
+    font-size: 28px;
+    width: 50%;
+    margin-bottom: 35px;
+
+  }
+
+  .intro-3-course {
+    font-size: 16px;
+    margin-bottom: 35px;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .intro-3-work {
+    font-size: 16px;
+    margin-bottom: 35px;
+    width: 100%;
+  }
+
+  .iconDetails {
+    height: 20px;
+    width: 20px;
+  }
+
+
+  .intro {
+    z-index: -1;
+    padding-left: 40px;
+    padding-top: 240px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+
+  .app-intro {
+    font-weight: bold;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #FFF;
+  }
+
+  .app-intro-sub {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto 50px;
+    font-size: 18px;
+    color: #FFF;
+  }
+
+  .app-intro-desc {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto auto;
+    font-size: 15px;
+    color: #FFF;
+  }
+
+  .prev-img {
+    width: 200px;
+    height: auto;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 736px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 36px
+  }
+
+  .overlay .closebtn {
+    font-size: 60px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 400px;
+    width: auto;
+    margin-right: 40px;
+  }
+
+  .banner-logo {
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    margin-left: -10px;
+  }
+
+  .akshay-contact-logo-big {
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .mobile {
+    font-size: 10px;
+    color: white;
+  }
+
+  .email {
+    font-size: 10px;
+    color: white;
+  }
+
+  .contact-icon-1 {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+
+  }
+
+  .contact-icon-2 {
+    height: 12px;
+    width: 12px;
+    margin: 10px;
+  }
+
+  .personal-contact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .btn {
+    width: 106px;
+    height: 27px;
+    font-size: 10px;
+  }
+
+  .btn:hover {
+    width: 106px;
+    height: 27px;
+    background-color: transparent;
+
+  }
+
+  .btn {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    font-size: 10px;
+    border-color: transparent;
+    border-width: 1px;
+    box-shadow: 3px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+  }
+
+  .btn:focus, .btn:active, .btn:hover {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    font-size: 10px;
+    border-color: transparent;
+    border-width: 1px;
+    margin-bottom: 10px;
+  }
+
+
+  .intro-1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+
+  }
+
+  .intro-2 {
+    font-size: 24px;
+    width: 60%;
+    margin-bottom: 30px;
+
+  }
+
+  .intro-3-course {
+    font-size: 12px;
+    margin-bottom: 30px;
+    width: 60%;
+    margin-left: 10px;
+
+  }
+
+  .intro-3-work {
+    font-size: 12px;
+    margin-bottom: 30px;
+    width: 60%;
+  }
+
+  .iconDetails {
+    height: 20px;
+    width: 20px;
+  }
+
+
+  .intro {
+    z-index: -1;
+    padding-left: 40px;
+    padding-top: 230px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+
+}
+
+@media only screen and (max-height: 736px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 36px
+  }
+
+  .overlay .closebtn {
+    font-size: 60px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 500px;
+    width: auto;
+    margin-right: 40px;
+  }
+
+
+  .intro-1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+
+  }
+
+  .intro-2 {
+    font-size: 24px;
+    width: 60%;
+    margin-bottom: 30px;
+
+  }
+
+  .intro-3-course {
+    font-size: 12px;
+    margin-bottom: 30px;
+    width: 60%;
+    margin-left: 10px;
+
+  }
+
+  .intro-3-work {
+    font-size: 12px;
+    margin-bottom: 30px;
+    width: 60%;
+  }
+
+  .iconDetails {
+    height: 20px;
+    width: 20px;
+  }
+
+
+  .intro {
+    padding-left: 40px;
+    padding-top: 180px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+  .app-intro {
+    font-weight: bold;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+  }
+
+  .app-intro-sub {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto 50px;
+    font-size: 16px;
+    color: #FFF;
+  }
+
+  .app-intro-desc {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto auto;
+    font-size: 12px;
+    color: #FFF;
+  }
+
+  .prev-img {
+    width: 160px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (max-height: 736px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 36px
+  }
+
+  .overlay .closebtn {
+    font-size: 60px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 400px;
+    width: auto;
+    margin-right: 40px;
+  }
+
+
+  .intro-1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+
+  }
+
+  .intro-2 {
+    font-size: 24px;
+    width: 60%;
+    margin-bottom: 30px;
+
+  }
+
+  .intro-3-course {
+    font-size: 12px;
+    margin-bottom: 30px;
+    width: 60%;
+    margin-left: 10px;
+
+  }
+
+  .intro-3-work {
+    font-size: 12px;
+    margin-bottom: 30px;
+    width: 60%;
+  }
+
+  .iconDetails {
+    height: 20px;
+    width: 20px;
+  }
+
+
+  .intro {
+    z-index: -1;
+    padding-left: 40px;
+    padding-top: 180px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+  .app-intro {
+    font-weight: bold;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+  }
+
+  .app-intro-sub {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto 50px;
+    font-size: 16px;
+    color: #FFF;
+  }
+
+  .app-intro-desc {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto auto;
+    font-size: 12px;
+    color: #FFF;
+  }
+
+  .prev-img {
+    width: 160px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-height: 570px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 36px
+  }
+
+  .overlay .closebtn {
+    font-size: 60px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 350px;
+    width: auto;
+    margin-right: 40px;
+  }
+
+
+  .intro-1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+
+  }
+
+  .intro-2 {
+    font-size: 18px;
+    width: 50%;
+    margin-bottom: 25px;
+
+  }
+
+  .intro-3-course {
+    font-size: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    margin-left: 10px;
+
+  }
+
+  .intro-3-work {
+    font-size: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+
+  .iconDetails {
+    height: 20px;
+    width: 20px;
+  }
+
+
+  .intro {
+    z-index: -1;
+    padding-left: 40px;
+    padding-top: 150px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+
+  .app-intro {
+    font-weight: bold;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+  }
+
+  .app-intro-sub {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto 50px;
+    font-size: 12px;
+    color: #FFF;
+  }
+
+  .app-intro-desc {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto auto;
+    font-size: 8px;
+    color: #FFF;
+  }
+
+  .prev-img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 700px) and (max-height: 570px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 36px
+  }
+
+  .overlay .closebtn {
+    font-size: 60px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 250px;
+    width: auto;
+    margin-right: 40px;
+  }
+
+
+  .intro-1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+
+  }
+
+  .intro-2 {
+    font-size: 18px;
+    width: 50%;
+    margin-bottom: 25px;
+
+  }
+
+  .intro-3-course {
+    font-size: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    margin-left: 10px;
+
+  }
+
+  .intro-3-work {
+    font-size: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+
+  .iconDetails {
+    height: 20px;
+    width: 20px;
+  }
+
+
+  .intro {
+    z-index: -1;
+    padding-left: 40px;
+    padding-top: 150px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+
+  .app-intro {
+    font-weight: bold;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+  }
+
+  .app-intro-sub {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto 50px;
+    font-size: 12px;
+    color: #FFF;
+  }
+
+  .app-intro-desc {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto auto;
+    font-size: 8px;
+    color: #FFF;
+  }
+
+  .prev-img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  .intro-1 {
+    font-size: 26px;
+    margin-bottom: 28px;
+
+  }
+
+  .intro-2 {
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 28px;
+
+  }
+
+  .intro-3-course {
+    font-size: 12px;
+    margin-bottom: 28px;
+    width: 100%;
+
+  }
+
+  .intro-3-work {
+    font-size: 12px;
+    margin-bottom: 28px;
+    width: 100%;
+
+  }
+
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 250px;
+    width: auto;
+    margin-bottom: 40px;
+    margin-right: 11px
+  }
+
+  .intro {
+    z-index: -1;
+    padding-left: 16px;
+    padding-top: 140px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+  .iconDetails {
+    width: 16px;
+    height: 16px;
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .navbar-brand {
+    float: left;
+    margin-top: -2px;
+    margin-left: -4px;
+
+  }
+
+  .navbar-menu {
+    float: right;
+    margin-top: 26px;
+    margin-right: 16px;
+
+
+  }
+
+
+  .icon-bar {
+    width: 100%;
+    background-color: #2D2D2D;
+    overflow: auto;
+  }
+
+  .icon-bar a {
+
+    width: 25%;
+    text-align: center;
+    padding: 16px 0;
+    transition: all 0.3s ease;
+    color: white;
+  }
+
+  .socialIcons {
+    width: auto;
+    height: 20px;
+    margin-left: 35%;
+    margin-bottom: 0;
+  }
+
+  .btn {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    box-shadow: 3px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .btn:focus, .btn:active {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+
+  .inner-social {
+    width: 100%;
+
+  }
+
+
+  .app-intro {
+    font-weight: bold;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    margin: 20px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+  }
+
+  .app-intro-sub {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px 20px 50px;
+    font-size: 12px;
+    color: #FFF;
+  }
+
+  .app-intro-desc {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px 20px 20px;
+    font-size: 8px;
+    color: #FFF;
+  }
+
+  .prev-img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-height: 480px) {
+
+  .intro-1 {
+    font-size: 26px;
+    margin-bottom: 25px;
+
+  }
+
+  .intro-2 {
+    font-size: 18px;
+    width: 60%;
+    margin-bottom: 25px;
+
+  }
+
+  .intro-3-course {
+    font-size: 12px;
+    margin-bottom: 25px;
+    width: 50%;
+
+  }
+
+  .intro-3-work {
+    font-size: 12px;
+    margin-bottom: 25px;
+    width: 50%;
+
+  }
+
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 16px
+  }
+
+  .overlay .closebtn {
+    font-size: 28px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 240px;
+    width: auto;
+    margin-bottom: 40px;
+    margin-right: 11px
+  }
+
+  .intro {
+    z-index: -1;
+    padding-left: 16px;
+    padding-top: 80px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+  .iconDetails {
+    width: 16px;
+    height: 16px;
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .navbar-brand {
+    float: left;
+    margin-top: -2px;
+    margin-left: -4px;
+
+  }
+
+  .navbar-menu {
+    float: right;
+    margin-top: 26px;
+    margin-right: 16px;
+
+
+  }
+
+  .nav-logo {
+    float: left;
+    width: 145px;
+    margin-top: 3px;
+    height: auto;
+
+
+  }
+
+
+  .icon-bar {
+    width: 100%;
+    background-color: #2D2D2D;
+    overflow: auto;
+  }
+
+  .icon-bar a {
+
+    width: 25%;
+    text-align: center;
+    padding: 16px 0;
+    transition: all 0.3s ease;
+    color: white;
+  }
+
+  .socialIcons {
+    width: auto;
+    height: 20px;
+    margin-left: 35%;
+    margin-bottom: 0;
+  }
+
+  .btn {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    box-shadow: 3px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .btn:focus, .btn:active {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+
+  .inner-social {
+    width: 100%;
+
+  }
+
+
+  .app-intro {
+    font-weight: bold;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFF;
+  }
+
+  .app-intro-sub {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto 50px;
+    font-size: 8px;
+    color: #FFF;
+  }
+
+  .app-intro-desc {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, serif;
+    text-align: center;
+    margin: 10px auto auto;
+    font-size: 6px;
+    color: #FFF;
+  }
+
+  .prev-img {
+    width: 90px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-height: 380px) {
+
+  .intro-1 {
+    width: 80%;
+    font-size: 28px;
+    margin-bottom: 15px;
+
+  }
+
+  .intro-2 {
+    width: 60%;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+
+  }
+
+  .intro-3-course {
+    font-size: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+
+  }
+
+  .intro-3-work {
+    font-size: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+
+  }
+
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 220px;
+    width: auto;
+    margin-bottom: 40px;
+    margin-right: 11px
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+  .iconDetails {
+    width: 16px;
+    height: 16px;
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .navbar-brand {
+    float: left;
+    margin-top: -2px;
+    margin-left: -4px;
+
+  }
+
+  .navbar-menu {
+    float: right;
+    margin-top: 26px;
+    margin-right: 16px;
+
+
+  }
+
+
+  .icon-bar {
+    width: 100%;
+    background-color: #2D2D2D;
+    overflow: auto;
+  }
+
+  .icon-bar a {
+
+    width: 25%;
+    text-align: center;
+    padding: 16px 0;
+    transition: all 0.3s ease;
+    color: white;
+  }
+
+  .socialIcons {
+    width: auto;
+    height: 20px;
+    margin-left: 35%;
+    margin-bottom: 0;
+  }
+
+  .btn {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    box-shadow: 3px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .btn:focus, active {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+
+  .inner-social {
+    width: 100%;
+
+  }
+
+
+}
+
+
+@media only screen and (max-width: 380px) {
+
+  .intro-1 {
+    font-size: 26px;
+    margin-bottom: 25px;
+
+  }
+
+  .intro-2 {
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 25px;
+
+  }
+
+  .intro-3-course {
+    font-size: 12px;
+    margin-bottom: 25px;
+    width: 100%;
+
+  }
+
+  .intro-3-work {
+    font-size: 12px;
+    margin-bottom: 25px;
+    width: 100%;
+
+  }
+
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 230px;
+    width: auto;
+    margin-bottom: 40px;
+    margin-right: 11px
+  }
+
+  .intro {
+    z-index: -1;
+    padding-left: 16px;
+    padding-top: 120px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+  .iconDetails {
+    width: 16px;
+    height: 16px;
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .navbar-brand {
+    float: left;
+    margin-top: -2px;
+    margin-left: -4px;
+
+  }
+
+  .navbar-menu {
+    float: right;
+    margin-top: 26px;
+    margin-right: 16px;
+
+
+  }
+
+
+  .icon-bar {
+    width: 100%;
+    background-color: #2D2D2D;
+    overflow: auto;
+  }
+
+  .icon-bar a {
+
+    width: 25%;
+    text-align: center;
+    padding: 16px 0;
+    transition: all 0.3s ease;
+    color: white;
+  }
+
+  .socialIcons {
+    width: auto;
+    height: 20px;
+    margin-left: 35%;
+    margin-bottom: 0;
+  }
+
+
+  .btn {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    box-shadow: 3px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .btn:focus, active {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+
+  .inner-social {
+    width: 100%;
+
+  }
+}
+
+@media only screen and (max-height: 340px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 200px;
+    width: auto;
+    margin-bottom: 40px;
+    margin-right: 11px
+  }
+
+  .intro {
+    z-index: -1;
+    padding-left: 16px;
+    padding-top: 70px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .navbar-menu {
+    float: right;
+    height: 14px;
+    width: 14px;
+    margin-top: 26px;
+    margin-right: 11px;
+
+
+  }
+
+  .navbar-brand {
+    float: left;
+    margin-top: -2px;
+    margin-left: -4px;
+
+  }
+
+  .navbar-menu {
+    float: right;
+    margin-top: 26px;
+    margin-right: 16px;
+
+
+  }
+
+  .nav-logo {
+    float: left;
+    width: 145px;
+    margin-top: 3px;
+    height: auto;
+
+
+  }
+
+
+  .icon-bar {
+    width: 100%;
+    background-color: #2D2D2D;
+    overflow: auto;
+  }
+
+  .icon-bar a {
+
+    width: 25%;
+    text-align: center;
+    padding: 16px 0;
+    transition: all 0.3s ease;
+    color: white;
+  }
+
+  .socialIcons {
+    width: auto;
+    height: 20px;
+    margin-left: 35%;
+  }
+
+  .btn {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    box-shadow: 3px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .btn:focus, active {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+
+  .inner-social {
+    width: 100%;
+
+  }
+
+  .intro-1 {
+    font-size: 22px;
+    margin-bottom: 16px;
+
+
+  }
+
+  .intro-2 {
+    font-size: 14px;
+    width: 60%;
+    margin-bottom: 16px;
+
+  }
+
+  .intro-3-course {
+    font-size: 8px;
+    margin-bottom: 16px;
+    margin-left: 0;
+
+  }
+
+  .intro-3-work {
+    font-size: 8px;
+    margin-bottom: 16px;
+    margin-left: 0;
+
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+  .iconDetails {
+    width: 13px;
+    height: 13px;
+  }
+
+
+}
+
+@media only screen and (max-width: 340px) {
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .img-responsive {
+    height: 240px;
+    width: auto;
+    margin-bottom: 40px;
+    margin-right: 11px
+  }
+
+  .intro {
+    z-index: -1;
+    padding-left: 16px;
+    padding-top: 100px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+  }
+
+  .inner {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .inner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .navbar-menu {
+    float: right;
+    height: 14px;
+    width: 14px;
+    margin-top: 26px;
+    margin-right: 11px;
+
+
+  }
+
+  .navbar-brand {
+    float: left;
+    margin-top: -2px;
+    margin-left: -4px;
+
+  }
+
+  .navbar-menu {
+    float: right;
+    margin-top: 26px;
+    margin-right: 16px;
+
+
+  }
+
+  .nav-logo {
+    float: left;
+    width: 145px;
+    margin-top: 3px;
+    height: auto;
+
+
+  }
+
+  .icon-bar {
+    width: 100%;
+    background-color: #2D2D2D;
+    overflow: auto;
+  }
+
+  .icon-bar a {
+
+    width: 25%;
+    text-align: center;
+    padding: 16px 0;
+    transition: all 0.3s ease;
+    color: white;
+  }
+
+  .socialIcons {
+    width: auto;
+    height: 20px;
+    margin-left: 35%;
+  }
+
+  .btn {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    box-shadow: 3px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .btn:focus, active {
+    background: #2D2D2D;
+    border-radius: 4px;
+    width: 106px;
+    height: 27px;
+    border-color: transparent;
+    border-width: 1px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+
+  .inner-social {
+    width: 100%;
+
+  }
+
+  .intro-1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+
+
+  }
+
+  .intro-2 {
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 16px;
+
+  }
+
+  .intro-3-course {
+    font-size: 10px;
+    margin-bottom: 16px;
+
+  }
+
+  .intro-3-work {
+    font-size: 10px;
+    margin-bottom: 16px;
+
+  }
+
+  .carousel {
+    width: 50%;
+  }
+
+  .iconDetails {
+    width: 13px;
+    height: 13px;
+  }
+
+
+}
