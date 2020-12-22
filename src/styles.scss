@@ -1,1 +1,83 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import "assets/css/glitch";
+@import "assets/css/animate";
+@import "assets/css/style";
+
+
+.modal {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.close {
+  color: #fff;
+  opacity: 1;
+}
+
+.modal-dialog {
+  width: 600px;
+  max-width: 600px;
+}
+
+.modal-content {
+  background-color: rgb(25, 25, 25);
+  width: 600px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.modal-header {
+
+  color: white;
+  border-bottom: 1px solid transparent;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+#myCarousel ngb-carousel.carousel.slide {
+  min-width: 650px;
+}
+
+#Apprev ngb-carousel.carousel.slide {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dropdown-menu, .form {
+  background: #2D2D2D;
+  color: white;
+}
+
+input[type="email"], #formControlTextarea {
+  background: #262626;
+  color: white;
+}
+
+input[type="email"]:focus, #formControlTextarea:focus {
+  background: #1d1b1b;
+  color: white;
+}
+
+input[type=text], input[type=text]:focus {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}

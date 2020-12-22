@@ -1,0 +1,25 @@
+<app-loader></app-loader>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <article>
+    <app-navigation></app-navigation>
+
+    <section class="prevapp">
+      <div id="Apprev" class="carousel slide app" data-ride="carousel">
+        <h1 class="app-intro">{{title}}</h1>
+        <p class="app-intro-sub">{{description}}</p>
+
+        <ngb-carousel #carousel [interval]="3500" [pauseOnHover]="true" [showNavigationIndicators]="false">
+          <ng-template ngbSlide *ngFor="let img of images">
+            <div class="picsum-img-wrapper">
+              <img [src]="img" alt="My image description">
+            </div>
+        </ng-template>
+        </ngb-carousel>
+      <!----End Slider-->
+      </div>
+    </section>
+  </article>
+
+<app-footer></app-footer>

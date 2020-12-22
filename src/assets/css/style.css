@@ -78,7 +78,6 @@
 
 .modal-content {
   background-color: rgb(25, 25, 25);
-
   border-radius: 20px;
   text-align: center;
   padding: 20px;
@@ -460,11 +459,21 @@ body {
   margin: 0 auto;
   display: table-cell;
   vertical-align: middle;
+  horiz-align: center;
 }
 
 #Apprev div div img {
   display: block;
   margin: auto;
+}
+
+#Apprev img {
+  width: 250px;
+  height: auto;
+}
+
+#myCarousel {
+  color: white;
 }
 
 .carousel {
@@ -775,7 +784,7 @@ body {
   .intro-3-work {
     font-size: 12px;
     margin-bottom: 30px;
-    width: 60%;
+    width: 100%;
   }
 
   .iconDetails {
@@ -859,7 +868,7 @@ body {
   .intro-3-work {
     font-size: 12px;
     margin-bottom: 30px;
-    width: 60%;
+    width: 100%;
   }
 
   .iconDetails {
@@ -971,7 +980,7 @@ body {
   .intro-3-work {
     font-size: 12px;
     margin-bottom: 30px;
-    width: 60%;
+    width: 100%;
   }
 
   .iconDetails {
@@ -1475,7 +1484,7 @@ body {
   .intro-3-work {
     font-size: 12px;
     margin-bottom: 25px;
-    width: 50%;
+    width: 100%;
 
   }
 
@@ -2265,5 +2274,5 @@ body {
     height: 13px;
   }
 
-
 }
+

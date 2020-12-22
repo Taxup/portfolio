@@ -1,0 +1,43 @@
+<!-- SEO -->
+<link rel="icon" type="image/png" href="assets/img/ak_icon.png"/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<app-loader (onChangeVisibility)="changeVisibility($event)"></app-loader>
+
+  <article class="content">
+
+    <app-navigation *ngIf="isVisible"></app-navigation>
+
+
+    <article class="intro">
+      <section id="inner" class="inner" [style.display]="isVisible ? '' : 'none'">
+        <header>
+          <h1 class="intro-1">Hi, I am Takhir.</h1>
+          <p class="intro-2">I am an Android Developer, I build custom apps & websites that help businesses
+            grow.</p>
+        </header>
+
+
+        <section id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ngb-carousel #carousel [interval]="2000" [pauseOnHover]="true" [pauseOnFocus]="true"
+                        [showNavigationArrows]="false" [showNavigationIndicators]="false">
+            <ng-template ngbSlide *ngFor="let item of introItems">
+              <div class="item" [innerHTML]="item"></div>
+            </ng-template>
+          </ngb-carousel>
+          <button type="button" class="btn btn-outline-primary" (click)="openModal()">Contact
+          </button>
+
+        </section><!----End Slider -->
+      </section>
+
+    </article>
+    <section id="inner-image" class="inner-image" [style.display]="isVisible ? '' : 'none'">
+      <img src="../../../assets/img/kakashi.png" class="img-responsive"
+           alt="Takhir Aralabev Android Developer Portfolio Image">
+    </section>
+
+   <app-footer [isVisible]="isVisible"></app-footer>
+  </article>
+

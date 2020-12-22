@@ -1,0 +1,29 @@
+<nav id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <section class="overlay-content" style="text-align: center;">
+    <div style="display: inline-block; text-align: left;">
+      <br><br><br>
+      <div class="md-form mt-0">
+        <input [(ngModel)]="filter" class="form-control" type="text" placeholder="Search" aria-label="Search">
+      </div>
+      <div *ngFor="let app of apps | searchFilter: filter">
+        <a routerLink="{{app.link}}">{{app.title}}</a>
+      </div>
+<!--      <a routerLink="/anixart">Anime Exploring App</a>-->
+<!--      <a routerLink="/icq">Social Networking App</a>-->
+<!--      <a routerLink="/mi-fit">Mi Fit Fitness App</a>-->
+<!--      <a routerLink="/github">Github Version Control App</a>-->
+<!--      <a routerLink="/anixart">Events App</a><br>-->
+
+
+    </div>
+  </section>
+</nav>
+
+<section id="nav-header" class="nav-header">
+  <a class="navbar-brand" routerLink="/">
+    <div class="glitch nav-logo" style="font-size: 40px;" data-text="Takhir Aralbaev">Takhir Aralbaev</div>
+  </a>
+  <img class="navbar-menu" src="assets/img/menu.svg" style="cursor:pointer" (click)="openNav()"
+       alt="Takhir Aralabev Android Developer Portfolio Tab">
+</section>
